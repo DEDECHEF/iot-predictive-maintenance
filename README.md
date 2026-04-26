@@ -2,7 +2,7 @@
 
 > 🇪🇸 **Versión en español disponible:** [Haz clic aquí para leer el README en español](README_es.md)
 
-![Architecture or hardware photo](/images/Full setup.jpeg)
+![Architecture or hardware photo](/images/Full_setup.jpeg)
 
 This project is an industrial Minimum Viable Product (MVP) designed for the early detection of mechanical failures in rotating machinery. It uses *Edge* signal processing and unsupervised learning (**Isolation Forest**) to prevent unplanned downtime (loss of revenue) and unnecessary preventive maintenance.
 
@@ -22,7 +22,7 @@ The mathematical core was initially validated using the industrial dataset from 
 
 For physical validation, real mechanical faults were injected into a rotating motor (fan). 
 
-![Grafana Dashboard and Telegram Alert](/images/Grafana Pannel.jpeg)
+![Grafana Dashboard and Telegram Alert](/images/Grafana_Pannel.jpeg)
 
 **Key achievement:** After implementing a fault persistence logic (evaluation using 1-minute windows to ignore isolated noise), the system reached a **100% anomaly detection rate**.
 
