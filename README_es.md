@@ -4,7 +4,7 @@
 
 # Mantenimiento Predictivo IoT en el Edge (Raspberry Pi + Machine Learning)
 
-![Arquitectura o foto del hardware](/images/Full setup.jpg)
+![Arquitectura o foto del hardware](/images/Full_setup.jpg)
 
 Este proyecto es un Producto Mínimo Viable (MVP) industrial diseñado para detectar fallos mecánicos de forma anticipada en maquinaria rotativa. Utiliza procesamiento de señales en el *Edge* y aprendizaje no supervisado (**Isolation Forest**) para evitar paradas imprevistas (lucro cesante) y mantenimientos preventivos innecesarios.
 
@@ -24,7 +24,7 @@ El núcleo matemático fue validado inicialmente con el dataset industrial de la
 
 Para la validación física, se inyectaron fallos mecánicos reales en un motor rotativo (ventilador). 
 
-![Dashboard Grafana y Alerta Telegram](/images/Grafana Pannel.jpeg)
+![Dashboard Grafana y Alerta Telegram](/images/Grafana_Pannel.jpeg)
 
 **Logro clave:** Tras implementar una lógica de persistencia de fallos (evaluación por ventanas de 1 minuto para ignorar ruidos aislados), el sistema alcanzó un **100% de detección de anomalías**.
 
